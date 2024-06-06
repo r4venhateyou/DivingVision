@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DivingVision</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to DivingVision</h1>
+    </header>
+    <main>
+        <section id="marine-life">
+            {% for life in marine_life %}
+            <div class="marine-card">
+                <img src="{{ url_for('static', filename='images/' + life.image) }}" alt="{{ life.name }}">
+                <h2>{{ life.name }}</h2>
+                <p>{{ life.description }}</p>
+            </div>
+            {% endfor %}
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
 
