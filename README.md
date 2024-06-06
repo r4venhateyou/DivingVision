@@ -69,7 +69,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-CEO Manager - [your-email@example.com](mailto:r4venhateyou@example.com)
+CEO Manager - [r4venhateyou@gmail.com](mailto:r4venhateyou@gmail.com)
 
 Project Link: [https://github.com/r4venhateyou/DivingVision](https://github.com/r4venhateyou/DivingVision)
 
